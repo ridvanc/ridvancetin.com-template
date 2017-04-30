@@ -26,7 +26,13 @@
         "css/magnific-popup.css"
       ],
       "scripts": [
-        "js/modernizr.js"
+        "js/modernizr.js",
+        "js/jquery-1.10.2.min.js",
+        "js/jquery.flexslider.js",
+        "js/waypoints.js",
+        "js/jquery.fittext.js",
+        "js/magnific-popup.js",
+        "js/init.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

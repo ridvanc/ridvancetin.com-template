@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
+import { NavbarModule } from './navbar/navbar.module';
+import { FooterModule } from './footer/footer.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { HomeModule } from './home/home.module';
     FormsModule,
     HttpModule,
     HomeModule,
+    NavbarModule,
+    FooterModule,
     RouterModule.forRoot([])
   ],
   providers: [],
